@@ -1,0 +1,168 @@
+/* 通用样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* 页面背景黑色 */
+    color: white; /* 默认文字颜色为白色 */
+    
+}
+
+/* 导航栏部分 */
+header {
+    background-color: #011a1b; /* 导航栏背景黑色 */
+    padding: 10px 40px; /* 上下内边距10px，左右内边距40px */
+    /* border-bottom: 2px solid #333; 下边框，深灰色 */
+    /* box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); 白色阴影 */
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: skyblue; /* 鼠标滑过时字体变为蓝色 */
+    transform: scale(1.1); /* 鼠标滑过时，字体略微放大 */
+}
+
+/* 主内容部分 */
+.main-container {
+    display: flex;
+    justify-content: space-between; /* 左右布局 */
+    padding: 20px;
+    gap: 20px;
+}
+
+.content, .video {
+   
+    padding: 20px;
+    border-radius: 8px;
+    /* border: 2px solid white; 白色边框 */
+}
+
+.content {
+    flex: 1;
+}
+
+.video {
+    width: 40%; /* 视频区域宽度 */
+}
+
+/* 视频展示部分 */
+video {
+    width: 100%; /* 视频宽度自适应 */
+    border: none; /* 移除任何边框 */
+    border-radius: 8px; /* 保持圆角效果 */
+}
+
+/* 响应式布局：手机端 */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column; /* 手机端上下布局 */
+        gap: 10px;
+    }
+
+    /* 手机端：内容栏居中，最大宽度设置为80% */
+    .content {
+        width: 80%; /* 内容栏宽度占80%，避免过宽 */
+        margin: 0 auto; /* 水平居中 */
+        order: 1; /* 内容栏在上方 */
+    }
+
+    .video {
+        width: 100%; /* 视频区域宽度占满 */
+        order: 2; /* 视频栏在下方 */
+    }
+    .nav-links li a {
+        font-size: 11px;
+    }
+}
+
+
+
+/* 内容部分 */
+.content {
+    text-align: center; /* 让文字居中 */
+   
+    /* padding: 30px; */
+    border-radius: 8px; /* 卡片圆角 */
+    
+    /* border: 2px solid white; 白色边框 */
+    /* box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); 白色阴影 */
+    max-width: 100%; /* 限制最大宽度 */
+    /* background-image: url('../img/bc.jpg'); 设置背景图片 */
+    background-size: cover; /* 背景图片覆盖整个区域 */
+    background-position: center; /* 背景图片居中显示 */
+    /* padding: 20px; */
+    border-radius: 8px;
+    /* border: 2px solid white; 白色边框 */
+    text-align: center; /* 文字居中 */
+    color: white; /* 设置文字颜色为白色，确保在背景上清晰可见 */
+    /* 使用 Flexbox 使内容上下左右居中 */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    /* height: 300px; 可以设置内容区域的高度，确保居中效果明显 */
+    flex-direction: column; /* 使内容垂直排列 */
+ /* box-shadow: 0 -4px 8px rgba(255, 255, 255, 0.3); 白色阴影 */
+
+}
+
+
+
+/* 底部内容栏 */
+.footer {
+    
+    /* background-color: #2a2404; 深色背景 */
+    color: white; /* 文字颜色为白色 */
+    padding: 20px; /* 内边距 */
+    text-align: center; /* 文字居中 */
+    width: 100%; /* 宽度占满整个页面 */
+    /* border-top: 2px solid #333; 上边框 */
+    /* box-shadow: 0 -4px 8px rgba(255, 255, 255, 0.3); 白色阴影 */
+    font-size: 14px; /* 文字大小 */
+    line-height: 1.6; /* 行间距 */
+    margin-top: 20px; /* 上方间距，确保内容不紧贴底部 */
+}
+
+.footer p {
+    margin: 0; /* 去掉段落默认外边距 */
+    max-width: 90%; /* 最大宽度 */
+    margin: 0 auto; /* 居中显示 */
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .footer {
+        font-size: 12px; /* 在手机端上字体稍微小一点 */
+        padding: 10px; /* 底部栏的内边距缩小 */
+    }
+}

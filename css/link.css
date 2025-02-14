@@ -1,0 +1,41 @@
+/* 内容部分 */
+.content {
+    text-align: center;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* 链接容器样式 */
+.link-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Web端一排显示6个 */
+    gap: 15px; /* 每个链接之间的间距 */
+    margin-top: 20px;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+    .link-container {
+        grid-template-columns: repeat(3, 1fr); /* 手机端一排显示3个 */
+    }
+}
+
+/* 链接样式 */
+.link-container a {
+    display: block;
+    background-color: #1E90FF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.link-container a:hover {
+    background-color: #333; /* 鼠标悬停时背景颜色 */
+}
