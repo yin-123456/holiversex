@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meta Force 元宇宙</title>
+<link rel="icon" href="https://metaforce888.oss-cn-beijing.aliyuncs.com/metaforce/img/logo.jpg?Expires=1726909605&OSSAccessKeyId=TMP.3KfkZdEv2LXeKFVFU5BSYqsASxqtGfHTEMMmDZ25bormbFuqfhuAjrJXf4uWrZg3AYF9CrMs8wLBeoLHsapnbQ2MVQCV6D&Signature=vmRTWhgxobcDUMJts%2FDvgiefmys%3D" > 
+<style>
+  #chushi p{
+    color: aqua;
+  }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    .header {
+        background-color: #333;
+        color: #fff;
+       
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+       
+        max-width: 100vw; /* 占据整个屏幕宽度 */
+        height: 100vh; /* 占据整个屏幕高度 */
+        /* background: url('https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/img/newsbc3.jpg') no-repeat center center fixed;
+          background-size: cover;  */
+          background-color: #3c3c3c;
+    }
+
+    .sidebar {
+        width: 200px;
+        height: 100vh;
+        /* background-color: #3c3c3c; */
+       padding: 10 10px;
+        text-align: center; /* 添加文本居中样式 */
+        margin: 0 auto; /* 添加水平居中样式 */
+      
+        box-sizing: border-box; /* 让 padding 不影响盒子大小 */
+       background-repeat: no-repeat;
+       height: 100vh; /* 设置背景高度占据整个视口高度 */
+        background-attachment: fixed; /* 让背景图片固定在视口中 */
+     /* background-color: rgba(255, 255, 255, 0.5); 添加半透明的白色覆盖层（RGB颜色值为白色，透明度为0.5） */
+    }
+  
+    .content {
+        flex: 1;
+        padding-top:10px;
+        padding-left: 20px;
+        box-sizing: border-box; /* 让 padding 不影响盒子大小 */
+        background-color: #fff;
+        overflow: auto; /* 如果内容超出高度，显示滚动条 */
+    }
+
+   .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .sidebar li {
+        margin-bottom: 10px;
+       
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+         background: rgb(0,0,0,0.3);
+       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+    }
+ 
+    .sidebar li:hover {
+        background-color: #e0e0e0;
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+    }
+
+    .submenu {
+        display: none;
+        padding-left: 10px;
+    }
+   
+    h1{
+      margin: 5px 5px;
+    }
+    h3{
+      color:#333;
+    }
+    h1,h2 {
+      color: #f8f8f8;
+    }
+    p{
+     color: skyblue;
+     background-color: rgba(35, 39, 35, 0.5);
+     padding: 10px;
+     border-radius: 10px;
+     } 
+
+        .content{
+        
+        /* background-image: url('https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/img/newsbc3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; */
+        height: 100vh;  
+        background-color: rgba(255, 255, 255, 0.0); /* 添加半透明的白色覆盖层（RGB颜色值为白色，透明度为0.5） */
+        
+        }
+        video {
+        width: 640px;
+         height: 320px;
+        }
+
+
+  .info-bar{
+    display: flex; align-items: center;  background: black;
+                 color: white; /* 设置文字颜色为白色 */
+                 padding: 10px;
+                 text-align: center;
+               
+  }
+  .info-bar p{
+    transition: transform 0.3s ease; /* 设置动画过渡效果 */
+    margin-left: 20px;
+    
+  }
+  .info-bar p:hover {
+  transform: scale(1.2);
+}
+.info-bar div{
+  margin-left: 10px;
+}
+.logo{
+ height: 50px;
+ border: none;
+ border-radius: 50%;
+ 
+}
+.content li{
+  color: skyblue;
+}
+#section7 img{
+  width: 600px;
+}
+  /* 手机端样式 */
+  @media (max-width: 768px) {
+            h1{
+              font-size: 18px;
+            }
+            h2{
+              font-size: 15px;
+            }
+
+            p{
+              font-size: 13px;
+            }
+            .sidebar{
+              width: 90px;
+              height: 100vh;
+              font-size: 12px;
+              padding: 0;
+              
+              
+            }
+            #section7 img{
+  width: 200px;
+}
+            .sidebar  li a{
+              width: 70px;
+            
+            }
+            #img-lu{
+              width: 300px;
+            }
+       
+            .container{
+                padding: 0;
+            }
+          
+            .content {
+
+                width: 100%; /* 内容区宽度占满整个视口 */
+            
+            }
+            .info-bar div a{
+            font-size: 9px;
+          }
+          .info-bar  {
+            padding: 0;
+          }
+       .info-bar div{ 
+         margin-left: 0;
+         padding: 0;
+        }
+        .info-bar div p{
+          margin: 0;
+        }
+        .info-bar .logo{
+          width: 30px;
+          height: 30px;
+        }
+        video {
+      width: 100%;
+      height: auto;
+    }
+        }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="info-bar" >
+        <div style="margin-right: 10px; margin-left: 10px;">
+           <a href="enter.html"><img class="logo" src="https://metaforce888.oss-cn-beijing.aliyuncs.com/metaforce/img/logo.jpg" ></a> 
+        </div>
+        <div>
+
+         <p><a href="https://meta-force.space/">MetaForce 元宇宙</a></p> 
+           
+          
+        </div>
+        <div >
+          <p style="color: #f0f0f0;"><a href="news.html">更多资料</a></p>
+        </div>
+        <div >
+          <p style="color: #f0f0f0;"><a href="teach.html">培训课程</a></p>
+        </div>
+        <div>
+          <p style="color: #f0f0f0;"><a href="toolsGuide.html">传送门</a></p>
+        </div>
+        <div>
+          <p style="color: #f0f0f0;"><a href="jiaru.html">加入我们</a></p>
+          
+        </div>
+        
+    </div>
+</div>
+
+<div class="container">
+    <div class="sidebar">
+        <h3 style="color: #f0f0f0;">原力元宇宙</h3>
+        <img style="width: 80px;height: 80px;border-radius: 50%;margin-bottom: 10px;" src="https://metaforce888.oss-cn-beijing.aliyuncs.com/metaforce/img/coin.jpg" >
+        <ul>
+            <li><a href="#yuanli" onclick="showContent('section1')"> Metaforce原力元宇宙</a></li>
+            <li><a href="#xitong" onclick="showContent('section2')">Metaforce系统赋能</a></li>
+            <li><a href="#xiangmu" onclick="showContent('section3')">项目讲解</a></li>
+            <!-- <li><a href="#jiangjie" onclick="showContent('section8')">讲解视频</a></li> -->
+            <li><a href="#zhuce" onclick="showContent('section7')">注册激活</a></li>
+            <!-- <li><a href="#youshi" onclick="showContent('section5')">优势亮点</a></li>
+            <li><a href="#xianshang" onclick="showContent('section6')">线上引流</a></li> -->
+            <li><a href="https://pan.baidu.com/s/1VCZxyJiJWyGIgBKMxACirg?pwd=k9d5 " >网盘资料讲解</a></li>
+            <!-- <li><a href="https://www.yuque.com/shanji-wvhrd/mdezxm/vpgcaiae04062ds9?singleDoc# 《2024年4月10号》" >最新消息更新</a></li>
+            <li><a href="https://polygonscan.com/token/0x958Afa3285EbeAa23a6BBF26eA429Ee6225FBD77#tokenAnalytics" >原力币每日销售数量</a></li> -->
+            <!-- <li><a href="https://polygonscan.com/token/0x958Afa3285EbeAa23a6BBF26eA429Ee6225FBD77?a=0x7e1263c92b997f42d9ef668bbc8ba213bd4ca08a#tokenAnalytics" >代币平衡</a></li> -->
+            <li><a href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkxMzcwMzA1OA==&hid=1&sn=b4b638ab243276f465638c5ce41316d0&scene=18" >原力元宇宙学堂</a></li>
+
+        </ul>
+      
+    </div>
+
+    <div class="content">
+        <section id="section1">
+            <h1 id="yuanli">Metaforce☞系统赋能</h1>
+            <p>欢迎来到开元社区原力空间，DeFi领域NO.1平台。开元，值得深入，选择比努力更重要。站在巨人肩膀上，更容易成功和接近成功! ———— 开元系统（宣）</p>            <p>MetaForce☞项目介绍</p>
+            <p>开元系统温馨提示</p>
+            <h1 onclick="showImportantPoints1()" style="font-size: large;">☞一：重点注意的</h1>
+           
+            <div id="section-content1" style="display: none;">
+                
+                <p>①：🆔一个人就1个账号</p>
+                <p>②：⚠️复制好助记词的双重备份</p>
+                <P>③：🟢保护好您的私钥、助记词，切勿泄露，更不可与任何人透露</P>
+            </div>
+            <h1 onclick="showImportantPoints2()" style="font-size: large;">☞二：四大杜绝的</h1>
+           
+            <div id="section-content2" style="display: none;">
+                
+                <p>①：❎不垫单</p>
+                <p>②：❎不给人</p>
+                <P>③：❎不以静态吸引流量</P>
+                <p>④：❎不抢线，不跳线，不交叉</p>
+            </div>
+            <h1 onclick="showImportantPoints3()" style="font-size: large;">☞三：四大高压线</h1>
+        
+            <div id="section-content3" style="display: none;">
+                
+                <p>①：❎不垫单</p>
+                <p>②：❎不给人</p>
+                <P>③：❎杜绝诱导或误导对方</P>
+                <p>④：❎杜绝抢线拉人</p>
+            </div>
+            <h1 onclick="showImportantPoints4()" style="font-size: large;">☞四：二十字方针</h1>
+            
+            <div id="section-content4" style="display: none;">
+                
+                <p>①：🟢规正方向</p>
+                <p>②：🟢解决问题</p>
+                <p>③：🟢研究方法</p>
+                <p>④：🟢发现人才</p>
+                <p>⑤：🟢精准复制</p>
+
+            </div>
+            <h1 onclick="showImportantPoints5()" style="font-size: large;">☞五：行六字箴言</h1>
+            
+            <div id="section-content5" style="display: none;">
+                
+                <p>①：🟢融入，配合，带动</p>
+<p>②：🟢我们的文化是</p>
+<p>③：🟢向上感恩，向下付出</p>
+<p>④：🟢和谐相处，互利共赢</p>
+
+            </div>
+            <h1 onclick="showImportantPoints6()" style="font-size: large;">☞六：规定性动作</h1>
+            
+            <div id="section-content6" style="display: none;">
+                
+                <p>①：🟢跟住系统会议，跟住咨询线</p>
+
+            </div>
+            <h1 onclick="showImportantPoints7()" style="font-size: large;">☞七：我们的做法</h1>
+            
+            <div id="section-content7" style="display: none;">
+                
+                <p>①：🟢线上为主;线上线下相结合，因地制宜，因人而异；开放包容，不拘一格</p>
+                <p>②：🟢系统是成功的秘密！</p>
+                <p>③：🟢只有守住底线，遵守规则，才能保证行稳致远</p>
+                
+            </div>
+            <h1 onclick="showImportantPoints8()" style="font-size: large;">☞八：开元系统宣</h1>
+         
+            <div id="section-content8" style="display: none;">
+                
+                <p>①：🟢始终对官方电报群组的管理员进行身份验证，并且始终记住管理员从不先发短信给您。</p>
+                <p>②：🟢绝不要使用未知链接链接您的元账户钱包。</p>
+                <p>③：🟢平台系统内置帮助中心，如果您需要更多帮助，请在系统内提交工单</p>
+                <p>④：🟢千万不要把你钱包里的12个助记词或私钥寄发给任何人（包括拍照截屏）</p>
+                <p>⑤：🟢如果陌生人打电话给你，请注意，高度警惕‼</p>
+                <p>⑥：🟢不要与任何人共享钱包地址的助记密钥。你必须立即阻止泄露‼</p>
+                <p>⑦：🟢有问题咨询您的推荐人，有人主动加您需要高度警惕，成年人思维辨别真假，如因轻信他人，给您带来的财产损失，与开元系统无关！后果自负‼</p>
+                <p>⑧：✅最后，请永远记住，您的资金和钱包的安全是您个人和最重要的责任。</p>
+                <p>⑨：✅永远不要向任何人透露您的私钥或恢复短语，无论涉及谁。警惕诈骗。</p>
+                <p>⑩：✅与我们一起度过一段奇妙的旅程，我们永远与您同在 - 原力元宇宙！🔥💚🔥</p>
+                
+            </div>
+          </section>
+        
+         
+        
+          <script>
+            function showImportantPoints1() {
+              var section = document.getElementById('section-content1');
+              if (section.style.display === 'none') {
+                section.style.display = 'block';
+                section.scrollIntoView({ behavior: 'smooth' });
+              }
+            }
+            function showImportantPoints2() {
+              var section = document.getElementById('section-content2');
+              if (section.style.display === 'none') {
+                section.style.display = 'block';
+                section.scrollIntoView({ behavior: 'smooth' });
+              }
+            }
+            function showImportantPoints3() {
+              var section = document.getElementById('section-content3');
+              if (section.style.display === 'none') {
+                section.style.display = 'block';
+                section.scrollIntoView({ behavior: 'smooth' });
+              }
+            }
+            function showImportantPoints4() {
+              var section = document.getElementById('section-content4');
+              if (section.style.display === 'none') {
+                section.style.display = 'block';
+                section.scrollIntoView({ behavior: 'smooth' });
+              }
+            }
+            function showImportantPoints5() {
+              var section = document.getElementById('section-content5');
+              if (section.style.display === 'none') {
+                section.style.display = 'block';
+                section.scrollIntoView({ behavior: 'smooth' });
+              }
+            }
+            function showImportantPoints6() {
+              var section = document.getElementById('section-content6');
+              if (section.style.display === 'none') {
+                section.style.display = 'block';
+                section.scrollIntoView({ behavior: 'smooth' });
+              }
+            }
+            function showImportantPoints7() {
+              var section = document.getElementById('section-content7');
+              if (section.style.display === 'none') {
+                section.style.display = 'block';
+                section.scrollIntoView({ behavior: 'smooth' });
+              }
+            }
+            function showImportantPoints8() {
+              var section = document.getElementById('section-content8');
+              if (section.style.display === 'none') {
+                section.style.display = 'block';
+                section.scrollIntoView({ behavior: 'smooth' });
+              }
+            }
+          </script>
+
+
+
+<!--                    2 -->
+<section id="section2">
+  <h1 id="xitong">Metaforce☞系统赋能</h1>
+  <p>欢迎来到开元社区原力空间，DeFi领域NO.1平台。开元，值得深入，选择比努力更重要。站在巨人肩膀上，更容易成功和接近成功! ———— 开元系统（宣）</p>  <p>MetaForce☞项目介绍</p>
+  <p>开元系统温馨提示</p>
+    <p>🟢一个人就1个账号</p>
+    <p>🟢杜绝垫单滑人</p>
+    <p>🟢杜绝之间借贷</p>
+    <p>🟢杜绝诱导或误导对方</p>
+    <p>🟢杜绝抢线拉人</p>
+    <p>🟢复制好助记词的双重备份</p>
+    <p>🟢始终对官方电报群组的管理员进行身份验证，并且始终记住管理员从不先发短信给您。</p>
+    <p>🟢绝不要使用未知链接链接您的元账户钱包。</p>
+    <p>🟢平台系统内置帮助中心，如果您需要更多帮助，请在系统内提交工单</p>
+    <p>🟢千万不要把你钱包里的12个助记词或私钥寄发给任何人（包括拍照截屏）</p>
+    <p>🟢如果陌生人打电话给你，请注意，高度警惕‼</p>
+    <p>🟢不要与任何人共享钱包地址的助记密钥。你必须立即阻止泄露‼</p>
+    <p>🟢有问题咨询您的推荐人，有人主动加您需要高度警惕，成年人思维辨别真假，如因轻信他人，给您带来的财产损失，与开元系统无关！后果自负‼</p>
+    <p>🟢最后，请永远记住，您的资金和钱包的安全是您个人和最重要的责任。</p>
+    <p>🟢永远不要向任何人透露您的私钥或恢复短语，无论涉及谁。警惕诈骗。</p>
+    <p>🟢与我们一起度过一段奇妙的旅程，我们永远与您同在 - 原力元宇宙！</p>
+    <h1>Meta Force－市场运作秘籍</h1>
+    <h2 onclick="showImportantPoints11()" style="font-size: large;">☞一：展业必备基本功</h2>
+    <div id="section-content11" style="display: none;">
+        
+        <p>①：首先自己要懂平台的社会价值（能给身边朋友带来哪些价值）</p>
+        <p>②：其次要能讲明白平台底层逻辑(价值愿景)</p>
+        <p>③：数量掌握钱包操作流程（注册，转账，激活）</p>
+    </div>
+    <h2 onclick="showImportantPoints22()" style="font-size: large;">☞二：展业必备心态</h2>
+    <div id="section-content22" style="display: none;">
+        
+        <p>①：利他之心去分享</p>
+        <p>②：平常之心去运作</p>
+        <p>③：感恩之心去服务</p>
+        <p>④：空杯之心去学习</p>
+        <p>⑤：积极之心去努力</p>
+    </div>
+    <h2 onclick="showImportantPoints33()" style="font-size: large;">☞三：展业必备观念</h2>
+    <div id="section-content33" style="display: none;">
+        
+        <p>①：顺应趋势而为，乘势而上(择业)</p>
+        <p>②：敢于接受未知领域的挑战(拼搏)</p>
+        <p>③：永远相信美好的事情即将发生(信念)</p>
+        <p>④：不骄不躁，静待花开(坚持)</p>
+    </div>
+    <h2 onclick="showImportantPoints33()" style="font-size: large;">☞四：展业必备能力方法</h2>
+    
+    <div id="section-content44" style="display: none;">
+        <p>①：说的清(平台本质)</p>
+        <p>②：听的懂(客户需求)</p>
+        <p>③：看的透(客户心理)</p>
+        <p>④：想的全(交流沟通)</p>
+        <p>⑤：做的周(前后服务)</p>
+
+    </div>
+    <p>持续做量，量上取胜!</p>
+    <p>总结：掌握以上的心态一观念一能力方法一持续的去做分享去实践，自然就会出现以你为核心的组织架构，接下来全心做好服务，就会有稳定的持续的收入，有了团队，组建核心，凝聚核心，赋能团队，网体自然如同滚雪球，越滚越大!</p>
+    <p>多年的团队组建秘籍都送给大家了祝君好运，悟~懂其中精华……全部吸收了</p>
+    <h1>加入开元系统分享原力元宇宙的十个重点理由❗ ❗ ❗ ⬇</h1>
+    <h2 onclick="showImportantPoints55()" style="font-size: large;">☞一：最前沿的趋势性财富机遇</h2>
+    
+    <div id="section-content55" style="display: none;">
+        
+        <p>•	①：元宇宙是互联网技术性不可逆的更新迭代，是人类向高级文明发展的必由之路。是未来发展的必然趋势，产生无限财富的超级风口</p>
+
+
+    </div>
+    <h2 onclick="showImportantPoints66()" style="font-size: large;">☞二：更广的覆盖性</h2>
+    <div id="section-content66" style="display: none;">
+        
+        <p>•	①：原力元宇宙是目前全球天花板级的存在：创始人拉多先生和他的团队更是元宇宙赛道专业精英，短时间做到了覆盖全球的格局，并吸纳了百万级精准数据，</p>
+        <p>奠定了雄霸天下的重要基础</p>
+
+    </div>
+    <h2 onclick="showImportantPoints77()" style="font-size: large;">☞三：更适合普通人创业项目</h2>
+    <div id="section-content77" style="display: none;">
+        
+        <p>• ①：符合普通人的参与条件：</p>
+        <p>• ②：技术成熟安全100%；</p>
+        <p>• ③：营业额分配秒到100%；</p>
+        <p>• ④：先机空间几乎100%；</p>
+        <p>• ⑤：分配机制0泡沫；</p>
+        <p>• ⑥：参与布道0风险；</p>
+        <p>• ⑦：人人需要且可为；</p>
+        <p>• ⑧：加入几乎0门槛;</p>
+
+        
+    </div>
+    <h2 onclick="showImportantPoints88()" style="font-size: large;">☞四：更具兼容性</h2>
+    <div id="section-content88" style="display: none;">
+        
+        <p>•	①：天然的金融属性与所有行业都兼容，参与者当下时时收入无上限，未来生态收入更无限，满足任何人对财富的需求和野心</p>
+       
+        
+    </div>
+    <h2 onclick="showImportantPoints99()" style="font-size: large;">☞五：更自由的事业机制</h2>
+    <div id="section-content99" style="display: none;">
+        
+        <p>• ①：当做事业</p>
+        <p>• ②：当做生意</p>
+        <p>• ③：当做兼职副业</p>
+        <p>• ④：当做闲钱理财</p>
+        <p>• ⑤：当做换道备胎…都可以</p>
+        <p>• ⑥：大干大赚，特干特赚！</p>
+        <p>• ⑦：当做博彩也未尝不可，确实有人幸运的啥也没干，也在赚…</p>
+        
+    </div>
+
+    <h2 onclick="showImportantPoints111()" style="font-size: large;">☞六：更稳定安全长久的收益</h2>
+    <div id="section-content111" style="display: none;">
+        
+      <p>• ①：服务器-A+级</p>
+      <p>• ②：政策-全球多国大力支持</p>
+      <p>• ③：大陆，香港，信号明显</p>
+      <p>• ④：参与者信息安全：高！！！</p>
+      <p>• ⑤：去中心区块链钱包登录</p>
+      <p>• ⑥：不用参与者任何个人信息：手机号，银行卡，身份证通通的不要，备份好自己钱包的助记词就OK</p>
+      <p>• ⑦：收益安全：高！！！</p>
+      <p>• ⑧：不做链，也不炒币，当下收入不会贬值，进出都是稳定币，头部交易所秒变现金，妥妥的入袋为安！</p>
+      <p>• ⑨：生态资产增值：高！！！</p>
+      <p>• ⑩：获得的核心资产随着生态板块落地应用展开，未来N倍增值！</p>
+      <p>• ⑪：永续长久的管道收益，可世袭传承几代人，我们是光宗耀祖的富一代，受益无穷的是后代</p>
+        
+    </div>
+    <h2 onclick="showImportantPoints222()" style="font-size: large;">☞七：很难找对手的项目</h2>
+    <div id="section-content222" style="display: none;">
+        
+     
+        <p>•	①：获取财富的赛道里，创业群体的项目圈子里，拿着望远镜也找不到能与之媲美的对手</p>
+      
+    </div>
+    <h2 onclick="showImportantPoints333()" style="font-size: large;">☞八：更大的社区体量-全球共参与</h2>
+    <div id="section-content333" style="display: none;">
+        
+        <p>• ①：世界各地都在同步推广</p>
+        <p>• ②：国内外社交软件都在同步推送</p>
+        <p>• ③：此时能够走进来参与</p>
+        <p>• ④：我们会享尽财富盛宴</p>
+        <p>• ⑤：错过先机</p>
+        <p>• ⑥：会错过一个时代</p>
+        
+    </div>
+    <h2 onclick="showImportantPoints444()" style="font-size: large;">☞九：更人性化的组织-开元系统</h2>
+    <div id="section-content444" style="display: none;">
+        
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>文本内容</title>
+        </head>
+        <body>
+            <div>
+                <p>• ①：大门进对，小门更是关键！</p>
+                <p>• ②：开元系统是原力元宇宙在大中华区域里最具有责任心的系统</p>
+                <p>• ③：24小时保姆式服务</p>
+                <p>• ④：无数小白在开元变成了大咖</p>
+                <p>• ⑤：无数难民在开元翻身上岸</p>
+                <p>• ⑥：开元社区里的每一位成员</p>
+                <p>• ⑦：在时刻感召着更多像我一样在机遇面前敢于开元的伙伴...</p>
+            </div>
+        </body>
+        </html>
+        
+    </div>
+    <h2 onclick="showImportantPoints555()" style="font-size: large;">☞十：最正确的选择</h2>
+    <div id="section-content555" style="display: none;">
+        
+        <p>• ①：对的时机-早期布道者已登顶</p>
+        <p>• ②：对的赛道-在超级风口下起飞</p>
+        <p>• ③：对每一个有梦不甘的灵魂来说</p>
+        <p>• ④：都是可遇而不可求</p>
+        
+    </div>
+    <h1>正确认知语言的力量</h1>
+    <P>做分享嘉宾需要注意的事项，明白分享嘉宾的意义就是给别人带来正向影响和鼓励</P>
+    <h2>一：语言的力量</h2>
+    <p>①：一句话可以把别人哄的很开心</p>
+    <p>②：一句话也可以把人伤的心底哇凉哇凉的……</p>
+    <p>③：张嘴说话之前要明白的事</p>
+    <p>④：什么场合说什么样的话</p>
+    <h2>二：自我介绍</h2>
+    <p>• ①：分享自己的心路历程和自己眼中的元宇宙事业机会，最后送祝福</p>
+    <p>• ②：分享自己的所悟所得，不要分享他人的</p>
+    <p>1. 内容：分享正理、正念、正能量的</p>
+    <p>2. 时间：控制在3-5分钟</p>
+    <p>3. 针对老朋友赋能课分享：</p>
+    <p>目的：影响带动老朋友</p>
+    <p>流程模版：（问好～自我介绍～学到啥～悟到啥～打算怎么做～最后送祝福）</p>
+    <p>寒暄问好、感谢平台、感谢系统、感谢邀请老师</p>
+    <p>4. 针对新朋友说明会分享：</p>
+    <p>目的：影响感召新朋友</p>
+    <p>模版：（问好～自我介绍～你看好原力元宇宙的哪些机会和价值，展示你的受益点，多久时间，赚了多少或当下思维认知能力的提升，也可以分享新人疑问点，解决新人疑问（举例变现问题等）展望下未来！感谢平台、系统、邀请老师，最后送祝福！</p>
+    <h2>三：做主持人的相关注意事项</h2>
+    <p>• ①：明白主持人的作用，承上启下，贯穿全场，掌控引导会场氛围、销售主讲老师，邀请主讲老师，总结主讲老师课程，销售邀请分享嘉宾，</p>
+    <p>• ②：做主持人需要注意的事情，就是不要把主讲老师的活和分享嘉宾的活给干了，主持人干好自己的本职工作就好</p>
+    <h2>四：做主讲老师需要注意的事项</h2>
+    <p>• ①：主讲的首要作用就是把事介绍清楚，帮助新朋友解决内心所有疑虑，最后达成共识，促成合作</p>
+  <p>• ②：做讲师，讲话或分享都要有力量，有激情、有状态，语速不要太快，讲的清，谈得拢为首要目的</p>
+    <h2>五：如何介绍自己</h2>
+    <p>• ①：自我介绍的第1个万能公式：</p>
+    <p>• ②：➡我是谁+➡跟你有什么关系+➡对你有什么用1个身份：</p>
+    <p>• ③：突出你的职业＋大白话解释</p>
+    <p>• ④：1个数字：展示你帮助了很多人</p>
+    <p>• ⑤：1个权威：用权威机构和名人背书</p>
+    <p>• ⑥：1个第一：你曾经在某个领域做到第一</p>
+    <p>• ⑦：1个链接：表达你很乐意为大家服务</p>
+    <p>• ⑧：1个礼物：收获潜在客户和人脉</p>
+    <p>结合以上，线上会议准备好状态，线下会议准备好装容仪表，做影响别人的那部分人，活成一道光，照亮更多人前行的路</p>
+    <p>丰富自己的知识储备，培养自己的讲话逻辑，但凡要开口之前必问此次讲话目的，倒推逆施，语言精简，逻辑通畅，让人听着舒服，做一个正理正向、谦逊低调，积极乐观的小太阳，点燃自己、温暖他人！</p>
+    <p>作业：结合自己的实际情况，给自己定版一个1～2分钟的自我介绍</p>
+  </section>
+
+ 
+
+  <script>
+    function showImportantPoints11() {
+      var section = document.getElementById('section-content11');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints22() {
+      var section = document.getElementById('section-content22');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints33() {
+      var section = document.getElementById('section-content33');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints44() {
+      var section = document.getElementById('section-content44');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints55() {
+      var section = document.getElementById('section-content55');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints66() {
+      var section = document.getElementById('section-content66');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints77() {
+      var section = document.getElementById('section-content77');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints88() {
+      var section = document.getElementById('section-content88');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints99() {
+      var section = document.getElementById('section-content99');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints000() {
+      var section = document.getElementById('section-content000');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints111() {
+      var section = document.getElementById('section-content111');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints222() {
+      var section = document.getElementById('section-content222');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints333() {
+      var section = document.getElementById('section-content333');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints444() {
+      var section = document.getElementById('section-content444');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function showImportantPoints555() {
+      var section = document.getElementById('section-content555');
+      if (section.style.display === 'none') {
+        section.style.display = 'block';
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+        <section id="section3" style="display: none;">
+          <h1 id="xiangmu">Metaforce☞系统赋能</h1>
+          <p>欢迎来到开元社区原力空间，DeFi领域NO.1平台。开元，值得深入，选择比努力更重要。站在巨人肩膀上，更容易成功和接近成功! ———— 开元系统（宣）</p>          <p>MetaForce☞项目介绍</p>
+          <p>开元系统温馨提示</p>
+    <h1>目录（点击直达）</h1>     
+          <h2><a href="#qudao">☞MetaForce☞官方渠道</a></h2>
+          <!-- <h2><a href="#">☞Metaforcem官宣锦集</a></h2> -->
+          <h2><a href="#chushi">☞Metaforce☞初识原力</a></h2>
+          <!-- <h2><a href="#">☞Metaforcem全球展示</a></h2> -->
+          <h2><a href="#zhanshi">☞MetaForce☞数据展示</a></h2>
+          <h2><a href="#jingdian">☞Metaforcem☞经典矩阵</a></h2>
+          <h2><a href="#NFT">☞Metaforcem皇家NFT</a></h2>
+          <!-- <h2><a href="#">☞Metaforcem系统赋能</a></h2> -->
+          
+          <!-- <h2><a href="#">Metaforcem社会实践</a></h2> -->
+          <p id="qudao"> ✅（中文）META FORCE官方来源和渠道</p>
+         
+          
+          <h1>渠道1</h1>
+<p >🌐官方链接：<a href="https://ladookhotnikov.com/">https://ladookhotnikov.com/</a></p>
+<p>🌐官方链接：<a href="https://meta-force.space/">https://meta-force.space/</a></p>
+<p>🌐官方链接：<a href="https://meta-force.site/">https://meta-force.site/</a></p>
+<p>📹油管频道：<a href="https://www.youtube.com/@LadoOkhotnikov/">https://www.youtube.com/@LadoOkhotnikov/</a></p>
+<p>📹油管频道：<a href="https://www.youtube.com/c/MetaFORCESpace">https://www.youtube.com/c/MetaFORCESpace</a></p>
+<p>📹油管频道：<a href="https://www.youtube.com/@MetaForceRussian/">https://www.youtube.com/@MetaForceRussian/</a></p>
+<p>📣中文链接：<a href="https://t.me/forcechina1">https://t.me/forcechina1</a></p>
+<p>👉空间链接：<a href="https://t.me/MetaForceSpace">https://t.me/MetaForceSpace</a></p>
+<p>📣英文链接：<a href="https://t.me/MetaForce_EN">https://t.me/MetaForce_EN</a></p>
+<p>📣中文链接：<a href="https://t.me/MetaForce_ZH">https://t.me/MetaForce_ZH</a></p>
+<p>📌脸书链接：<a href="https://www.facebook.com/forsage.force">https://www.facebook.com/forsage.force</a></p>
+<p>📌推特链接：<a href="https://twitter.com/MetaForceSpace">https://twitter.com/MetaForceSpace</a></p>
+<p>📌Discord ：<a href="https://discord.gg/yZYzwpJeWg">https://discord.gg/yZYzwpJeWg</a></p>
+<h1>渠道2</h1>
+<p>👉META FORCE Official Sources And Channels（英文）</p>
+<p><a href="https://meta-force.space/">https://meta-force.space/</a></p>
+<p><a href="https://meta-force.site/">https://meta-force.site/</a></p>
+<p>👉Youtube Channel: <a href="https://www.youtube.com/c/MetaFORCESpace">https://www.youtube.com/c/MetaFORCESpace</a></p>
+<p>👉Discord <a href="https://discord.gg/yZYzwpJeWg">https://discord.gg/yZYzwpJeWg</a></p>
+<p>👉Telegram Channel: <a href="https://t.me/MetaForceSpace">https://t.me/MetaForceSpace</a></p>
+<p>👉Telegram Chat: <a href="https://t.me/MetaForce_EN">https://t.me/MetaForce_EN</a></p>
+<p>👉Facebook: <a href="https://www.facebook.com/forsage.force">https://www.facebook.com/forsage.force</a></p>
+<p>👉Twitter: <a href="https://twitter.com/MetaForceSpace">https://twitter.com/MetaForceSpace</a></p>
+<br>
+<hr>
+<br>
+          <h2 id="chushi">原力元宇宙是下个时代</h2>
+
+           <p style="color: rgb(10, 159, 159);">随着科技的不断发展，人类社会也在不断地进步和变化。而在这个数字化时代，原力元字宙被认为是下一个时代的到来。原力元字宙是一种虚拟现实的世界，它是由数字技术和区块链技术构建而成的。在这个虚拟世界中，人们可以自由地交互、创造和探索，这将会是一个全新的世界，它将会改变我们的生活方式和社会结构。</p>
+
+           <p>首先，原力元宇宙将会改变我们的生活方式。在这个虚拟世界中，人们可以自由地创造和探索，这将会给我们带来更多的乐趣和创造力。比如，我们可以在这个虚拟世界中创造自己的角色和故事，与其他人互动，这将会给我们带来更多的乐趣和创造力。此外，原力元字宙还可以为我们提供更多的教育和培训机会，比如，我们可以在这个虚拟世界中学习新的技能和知识，这将会为我们的职业发展带来更多的机会。</p>
+           
+           <p>其次，原力元宇宙将会改变我们的社会结构。在这个虚拟世界中，人们可以自由地交互和合作，这将会促进社会的发展和进步。比如，我们可以在这个虚拟世界中建立自己的社区和组织，与其他人一起合作，共同创造更好的世界。此外，原力元字宙还可以为我们提供更多的社交机会，比如，我们可以在这个虚拟世界中结识更多的朋友和同伴，这将会为我们的社交生活带来更多的乐趣和机会。</p>
+           
+           <p>最后，原力元字宙是下一个时代，正在悄无声息地到来，它必定会改变我们的生活方式和社会结构。也一定会带来一些机遇和红利，让我们一起与时俱进，积极地拥抱科技拥抱未来，以便更好地利用这个虚拟世界的优势和机会。成就我们普通人精彩的人生!</p>
+           <p style="color: aquamarine;display: block;height: 90px;padding: 5px; background-color: rgba(0, 0, 0, 0.5);border-radius: 5px;font-size: 13px;padding: 5px;">既然您已经决定加入我们的完全去中心化社区和全球加密货币生态系统，您需要花点时间查看我们的营销演示和其他计划文档，以了解有关这个革命性项目的更多信息。</p>
+          <h2>Meta Force由几个相互关联的智能合约程序组成</h2>
+          <p>发布的第一个程序是Classic(经典矩阵)，它基本上是一个推荐计划，对于发展我们的社区至关重要</p>
+          
+        <img id="img-lu" src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/img/lu.png" alt="路线图">
+        <p>·研发(第三代互联网流量聚合平台)</p>
+<p>·经典矩阵(平台引流端产品，链接皇家nft)</p>
+<p>·皇家NFT(版税奖金，持分红nft永久享受平台生态板块分红)</p>
+<p>·联合宇宙(元宇宙最主要板块，链接平台主力Token)</p>
+<p>·平台主力Token</p>
+<p>·元宇宙实测版</p>
+<p>·更多精彩生态板块</p>
+<p>请注意，自经典视频和pdf发布以来，已经进行了更新:价格不会翻倍</p>
+<h2>如何加入注册激活</h2>
+<p>请在注册之前获得详细信息，因为您可以通过推广项目并帮助指导您的合作伙伴发展他的业务来赚钱。努力帮助您所邀请的伙伴去发展业务，越努力越幸运，主动和被动收入计划之间也会有联系。
+  首先，下载安装一个去中心化钱包，开启您的原力之旅，用Pos DA!稳定币为它提供资金，用于您想要开始的插槽(级别)数量，并留下少量Polygon Matic作为网络费用。
+  @找到您的邀请老师，用他的推荐链接注册 ，开启轻资产创业之旅，开元社区全程免费陪跑</p>
+  <br>
+  <hr>
+  <br>
+  <h2 id="zhanshi">MetaForcer数据展示</h2><br>
+  <h2>合约地址</h2>
+  <h2>   新建钱包</h2>
+  <p>①：创建钱包后必需添加DAI、TR</p>
+  <p>● DAI合约 – 0x8f3cf7ad23cd3cadbd9735aff958023239c6a063</p>
+  <p>● TR合约 – 0xa77ed4939578e3e4961faaf54b53c1ddaf6512d3</p>
+  <p>②：原力币、能量币不是必需添加</p>
+  <p>● Forcecoin(MFS) – 0x958Afa3285EbeAa23a6BBF26eA429Ee6225FBD77</p>
+  <p>● Energy – 0xecfD832495080753197Bd3E3d9038FC8A5d850Bb</p>
+  <h2>二：观察钱包</h2>
+  <p>● 想查看如何100%拨比秒分配添加经典矩阵奖金结算合约（可以通过tp钱包创建观察钱包）</p>
+  <p>● 经典矩阵 – 0xf3a3d1B89A70E291531ECB4a1299117f5dE44612</p>
+  <p>● 联合宇宙 – 0x415d01fc2266e3c5908e94b8958057936911bed8</p>
+  <p>● 联合宇宙底池（分发） – 0x830017756Ce93b471f90A0502985766C9bb9bAF4</p>
+  <p>● Forcecoin(MFS)币池 – 0x4aac95ebe2ea6038982566741d1860556e265f8b</p>
+  <h2>三：SFC合约</h2>
+  <p>● SFC old – 0x59C0Aa7a197694C93B1d7dfbc7d124dEbBf8eD5D/p>
+  <p>● SFC new – 0xCE5f928BE5e42f7f83e7C92a9dDE70430a119C44</p>
+  <p>● SFC2 – 0x6EE76404b3214C3C98A91d847CD7F15A745479BD</p>
+  <p>● SFCr – 0xD763c4c0A1d50c76067992bebaa24C9F786FDe68</p>
+  <p>● SFCr2 – 0x167ad8bD31A1871231f4bC0D6ff762cB87Cae594</p>
+  <h2>四：皇家卡牌</h2>
+  <p>①：新V3版NFT分红池数据（可查看具体过了多少账户，分红数值）</p>
+  <p>● 一级 – 0x44c75c1561F90F1CDDe488BBEE32610F4dCACaEa</p>
+  <p>● 二级 – 0x054456Ee9D1D4F193E201DdA5cef120515d2CdC4</p>
+  <p>● 三级 – 0x7a9B8531f1A4c95EA8d2372AE78DdD278971462b</p>
+  <p>● 四级 – 0x5f6E6AFE124D713B4beb706a675da90b48cff05a</p>
+  <h2>②：新V3皇家卡牌的合约地址Royalty NFT</h2>
+  <p>● Just NFT – 0x4efa6a2b48c88a4a08d68a9314c55edbaa939351</p>
+  <p>● Status 1 – 0xc40e2fec0183a878499a05382016dee33ad92855</p>
+  <p>● Status 2 – 0x5f457b21beb627fad46ce24f066e90243935aba7</p>
+  <p>● Status 3 – 0xd72b188dcd43e57a6f550be9e4cb765469a8eb01</p>
+  <p> Status 4 – 0x1a923fa472cee5ab333630fc41b01cc14eb50287</p>
+  <p>● Status 5 – 0x23c716c276f6c369d30e3a90c4ef9b0569be1ed4</p>
+  <p>● Status 6 – 0x9bc0eb2e1b292167ebf8edae144f43f90761aac4</p>
+  <p>● Status 7 – 0x3cddf3a4013ab72f601908d389a5a33c12f13195</p>
+ 
+ <h2>五：Forcecoin</h2> 
+ <p>①：Forcecoin的最大发行量将为585,142,858个代币</p>
+  <p>● 联合宇宙 – 0x415d01fc2266e3c5908e94b8958057936911bed8</p>
+  <p>● Forcecoin(MFS)合约地址 – 0x958afa3285ebeaa23a6bbf26ea429ee6225fbd77–</p>
+<p>● Forcecoin(MFS)币池 – 0x4aac95ebe2ea6038982566741d1860556e265f8b</p>
+<p>● 80%用于营销 – 0x830017756ce93b471f90a0502985766c9bb9baf4</p>
+<p>②：其中80%将用于Uniteverse计划。其余资金将分配如下：</p>
+<p>● 8%用于流动性上市合约 – 0x1200143E1a12EA93e0E9b722c292e7fcE756AF5C</p>
+<p>● 5%用于TR指数合约 – 0x3B38DEF23649946d225C2BfAD38f151aA597B84c</p>
+<p>● 4%用于Meta开发和激励合约 – 0xd34cd7eF89b2FcC7EcEBe295467643b67016C3fA</p>
+<p>● 2%用于团队合约 – 0xe26F7854968854e118fEDAbC8f0b62B6f51A9F44</p>
+<p>● 1%用于其他合约 – 0x25A38A359dA0FfF5D8f3f0cb6Aa766eBF04A46f9</p>
+<p>● 层级匹配过期销毁 – 0x36b6c69a02fb385c9a6817ca5eb5dc36bd8ab221</p>
+<p>③：这个储备将有一系列严格的任务，完成后未使用的硬币将被销毁。</p>  
+<p>④：中文白皮书：https://www.kdocs.cn/l/cmJwq7P21gln</p>     
+<h2>数据查询</h2>
+<h3>一：Matic马蹄链</h3>
+<p>● MATIC马蹄链polygon官网：https://polygonscan.com/</p>
+<p>二：经典矩阵</p>
+<p>● 想查看如何100%拨比秒分配添加经典矩阵奖金结算合约（可以通过tp钱包创建观察钱包）</p>
+<p>● 经典矩阵 – 0xf3a3d1B89A70E291531ECB4a1299117f5dE44612</p>
+<p>● 经典矩阵合约数据查询 :https://polygonscan.com/address/0xf3a3d1b89a70e291531ecb4a1299117f5de44612</p>
+<h3>三：安全等级</h3>
+<p>● 平台服务器安全等级查询：https://wenzhuanzu.com/;</p>
+<h3>四：总会员量</h3>
+<p>● 平台总会员量查询（SFC+SFC2持币总量即是总体会员量）</p>
+<p>第一阶段SFC持有人查询第二阶段SFC2持有人查询第三阶段TR持有人查询:https://polygonscan.com/token/0x6EE76404b3214C3C98A91d847CD7F15A745479BD</p>
+<h2>皇家卡牌</h2>
+<h3>皇家NFT卡牌opensea交易所</h3>
+<p>● 需要开加速器翻墙访问opensea交易所</p>
+<p>● 全球最大的NFT opensea交易所：https://opensea.io/</p>
+<p>● MetaForceSpace – https://opensea.io/MetaForceSpace</p>
+<h2>皇家NFTV3版计划的合集已经更新
+</h2>
+<p>● V3版皇家NFT合约地址（分红版本）</p>
+<p>● 以下是Meta Force提供的新名称、智能合约地址和连接到opensea真实新版税NFT的列表</p>
+<p>● Just NFT – https://opensea.io/collection/just-nft-10</p>
+<p>● Status 1 ACTIVATOR – https://opensea.io/collection/activator-1</p>
+<p>● Status 2 SUPERVISOR – https://opensea.io/collection/supervisor-1</p>
+<p>● Status 3 MANAGER – https://opensea.io/collection/manager-7</p>
+<p>● Status 4 PRO-MANAGER – https://opensea.io/collection/pro-manager</p>
+<p>● Status 5 PACESETTER – https://opensea.io/collection/pacesetter-1</p>
+
+<p>● Status 6 AMBASSADOR – https://opensea.io/collection/ambassador-6</p>
+<p>● Status 7 MCM – Millionaire’s Club Member – https://opensea.io/collection/mcm-2</p>
+<!-- 经典矩阵 -->
+<br>
+<hr>
+<br>
+<h1 id="jingdian">经典矩阵</h1>
+
+<p>Meta Force 是一个分为三个阶段的项目，第一个阶段称为经典矩阵。在这个阶段中，推出了Classic经典矩阵，由12个等级的矩阵组成，分为S6矩阵和S3矩阵。让我们深入了解经典矩阵的运作方式：</p>
+
+<h2>经典矩阵的基本原理</h2>
+
+<p>1. <strong>矩阵等级和价格</strong>:</p>
+<ul>
+<li>最低等级的矩阵价格为5DAI，每个等级是前一个等级的两倍。</li>
+<li>参与游戏需要逐级点亮激活矩阵，顺序参与每个等级。</li>
+</ul>
+
+<p>2. <strong>去中心化资金分配</strong>:</p>
+<ul>
+<li>游戏规则写入智能合约，无法篡改。</li>
+<li>采用三三复制和全球滑落机制，早期玩家使用马蹄链的DAI进行游戏，后期将用公链和NFT进行开元链接。</li>
+</ul>
+
+<p>3. <strong>加入矩阵</strong>:</p>
+<ul>
+<li>加入第三级矩阵需先加入前两级，同时拥有不同等级的矩阵，而非逐级进入。</li>
+</ul>
+
+<h2>S6和S3矩阵的运行方式</h2>
+
+<ul>
+<li><strong>S6矩阵</strong>:
+<ul>
+<li>购买该等级矩阵后，得到6个点位，其中1号和2号位的付款向上滑落，其余直接打入钱包。</li>
+<li>可获得300%的收益，并保证当前等级矩阵永久运行。</li>
+</ul>
+</li>
+
+<li><strong>S3矩阵</strong>:
+<ul>
+<li>点亮激活后，可获得200%的收益，并持续赚取A、B位置的收益。</li>
+</ul>
+</li>
+</ul>
+
+<h2>其他特点</h2>
+
+<ul>
+<li><strong>清空循环</strong>:
+<ul>
+<li>循环位清空和重置矩阵，帮助重新投资。</li>
+</ul>
+</li>
+
+<li><strong>自动升级</strong>:
+<ul>
+<li>可选择自动升级或关闭，影响未来收益。</li>
+</ul>
+</li>
+</ul>
+
+<h2>如何加入与收入计算</h2>
+
+<ul>
+<li>总共12个级别，第一列和第二列为S6矩阵，第三列为S3矩阵，各独立运作，带来不同利润。</li>
+<li>建议从较低级别开始，如6级，投入相对较低，同时获得平台赠送代币TR。</li>
+</ul>
+
+<p>在MATIC链/马蹄链上运行，准备好钱包和稳定币DAI参与游戏。了解经典矩阵的运作方式和收益机制，选择适合的等级参与，享受收益增长的过程。</p>
+
+
+
+<p>希望这篇文章能帮助您更好地理解和参与Meta Force的经典矩阵。</p>
+
+
+<br>
+<hr>
+<br>
+<h1 id="NFT">佛萨奇Royalty NFT全解析</h1>
+
+<p>欢迎深入了解佛萨奇的创新之作——<strong>Royalty NFT</strong>。除了NFT，佛萨奇还涵盖了经典矩阵、即将推出的BOOST矩阵、元宇宙、GameFi等多个板块，展现了其雄厚的实力和远见卓识。接下来，让我们探索佛萨奇结合NFT能够擦出怎样的火花。</p>
+
+<h2>什么是皇家NFT？</h2>
+
+<p>皇家NFT是Meta Force原力元宇宙生态的首个产品，与Force元宇宙的其他板块紧密相连。皇家卡牌不仅是一种身份级别计划，还能让持有者获得特许权使用奖励，这一切都通过NFT形式实现。该计划包含七个不同级别的卡牌。</p>
+
+<h2>级别与地位</h2>
+
+<p>每张卡牌代表一个特定的级别，NFT的级别越高，你将获得的奖金也就越丰厚。共有七个级别，如下所述。</p>
+
+<h2>奖金详情</h2>
+
+<p>皇家卡牌奖金占Meta Force产品总营业额的一部分。每位拥有卡牌身份的玩家都将获得奖金，具体金额取决于其NFT的级别。随着皇家卡牌级别的提升，奖金金额亦会增加。</p>
+
+<h2>发放奖金的百分比</h2>
+
+<p>Meta Force产品销售额的30%将作为特许权使用费，形成一个皇家奖金池。这是历史上最慷慨的特许权使用费奖金分配方式！</p>
+
+<h2>如何获得皇家卡牌？</h2>
+
+<p>初级NFT（0级）的获取十分简单。在联合宇宙开启后，要满足获得类似收益的条件，你需要同时达到经典矩阵的5级和联合宇宙的3级。</p>
+
+<h2>皇家NFT级别的重要性</h2>
+
+<p>即便是1级的卡牌，也代表了一种特权，因为这些卡牌的交易费用也计入全球营业额中。随着升级卡牌的难度增加，卡牌的级别越高，其价值也越大。通过拥有卡牌，玩家可以获得奖金形式的收入。你的级别越高，拥有的卡牌数量越多，你的收入也就越大。</p>
+
+<h2>奖金制度</h2>
+
+<p>皇家NFT共有7个级别，能量代币市场销售额的30%将用于发放奖金。从1级到7级，奖金比例分别是10%、11%、12%、13%、14%、15%、25%。</p>
+
+<h2>升级玩法</h2>
+
+<p>通过合成3个1级NFT可以升级为一个2级NFT，从而获得更高的收入，以此类推。</p>
+
+<h2>回顾早期</h2>
+
+<p>早期获得的NFT只有有限的能量等级。升级这些NFT需要能量代币，初期阶段暂时以赠送的SFC替代。NFT一经上线，将取消赠送SFC和恢复所有矩阵的原价，结束半价优惠。获得NFT没有先来后到的顺序之分。</p>
+
+<h2>获得条件</h2>
+
+<p>随着Boost和Delta等矩阵的推出，获得NFT的条件将变得更加多样。在Boost加强矩阵推出的当前阶段，你需要同时购买经典矩阵5级和boost矩阵3级才能获得NFT。随着后续更多板块的推出，要求购买的矩阵数量也会增加。同时，我们早期的NFT市场价格预计会更高，展现了健康发展的趋势。</p>
+
+<p></p>
+
+</section>
+      
+        <section id="section5" style="display: none;">
+          <h1 id="youshi">Metaforce☞系统赋能</h1>
+          <p>欢迎来到开元社区原力空间，DeFi领域NO.1平台。开元，值得深入，选择比努力更重要。站在巨人肩膀上，更容易成功和接近成功! ———— 开元系统（宣）</p>            <p>MetaForce☞项目介绍</p>
+            <p>开元系统温馨提示</p>
+          <h1>MetaForce☞优势亮点</h1>
+          <h2>一、平台架构</h2>
+          <p>Metaforce原力是一个基于马蹄链区块链的应用，使用了ERC-721和ERC-1155标准来支持数字资产的创建、授权和交易。它采用了Proof of Stake共识机制来实现链上治理和代币经济体系，并支持跨链互操作性以实现更高的扩展性。</p>
+          <ul>
+            <li>原力引擎：提供了丰富的工具和功能来创建、部署和管理元宇宙内容。</li>
+            <li>原力市场：允许用户出售、购买和交换各种虚拟物品。</li>
+            <li>原力钱包：去中心化的数字钱包，用于存储和管理代币和数字资产。</li>
+            <li>原力社区：允许用户交流、分享和合作。</li>
+          </ul>
+          <h2>二、平台特点</h2>
+          <ul>
+            <li>开放性和去中心化：允许任何人创建和部署自己的虚拟世界。</li>
+            <li>用户掌控和赋权：鼓励用户参与到平台生态中来。</li>
+            <li>丰富的创造工具和内容：提供了大量的工具和功能。</li>
+            <li>高度可扩展和互操作性：采用了跨链互操作性技术。</li>
+          </ul>
+          <h2>三、应用场景</h2>
+          <ul>
+            <li>游戏和娱乐：为玩家带来更有趣、更丰富的游戏体验。</li>
+            <li>艺术和文化：为艺术家和文化创意人提供展示和市场机会。</li>
+            <li>商业和金融：让用户可以在元宇宙中进行各种商业活动。</li>
+            <li>教育和科技：为学生、教师、企业和政府提供更好的教育体验。</li>
+          </ul>
+          <h2>四、未来展望</h2>
+          <p>Metaforce原力是一个潜力巨大的元宇宙平台，它蕴含着无限可能性和应用前景。未来，我们可以期待Metaforce原力在基础设施和生态系统完善、推广和采纳、创新和应用拓展等方面取得更多的突破和进展。</p>
+          <h2>收入机会</h2>
+          <p>我们现在有三个板块上线可以赚三笔收入：</p>
+          <ul>
+            <li>经典矩阵的推广收入</li>
+            <li>联合宇宙板块是发行原力币的，每天到账现金流和原力币。</li>
+            <li>NFT股东分红，可以通过13个板块推广免费获取。</li>
+          </ul>      
+        </section>
+        <section id="section6" style="display: none;">
+          <h1 id="xianshang">Metaforce☞系统赋能</h1>
+          <p>欢迎来到开元社区原力空间，DeFi领域NO.1平台。开元，值得深入，选择比努力更重要。站在巨人肩膀上，更容易成功和接近成功! ———— 开元系统（宣）</p>            <p>MetaForce☞项目介绍</p>
+            <p>开元系统温馨提示</p>
+          <p>MetaForce☞线上引流</p>
+            <hr>
+          
+            <p>1.不开直播怎么引流</p>
+            <video controls preload="none">
+              <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/8.mp4" type="video/mp4">
+              <p>您的浏览器不支持HTML5视频播放。</p>
+            </video>
+            <hr>
+            <p>2.不会直播怎么线上引流最新忠诚度返现计划解说</p>
+            <video controls preload="none">
+              <source src="
+              https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/9.mp4" type="video/mp4">
+              <p>您的浏览器不支持HTML5视频播放。</p>
+            </video>
+            <hr>
+            <p>3.关于快手直播</p>
+            <video controls preload="none">
+              <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/11.mp4" type="video/mp4">
+              <p>您的浏览器不支持HTML5视频播放。</p>
+            </video>
+            <hr>
+            <p>4.分红卡牌怎么得，小红书引流市场答疑</p>
+            <video  controls preload="none">
+              <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/10.mp4" type="video/mp4">
+              <p>您的浏览器不支持HTML5视频播放。</p>
+            </video>
+            <p>5.如何管理社区</p>
+            <video  controls preload="none">
+              <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/14.mp4" type="video/mp4">
+              <p>您的浏览器不支持HTML5视频播放。</p>
+            </video>
+            <p>6.快手直播实操 </p>
+            <video   id="myVideo" controls preload="none">
+              <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/12.mp4" type="video/mp4">
+              <p>您的浏览器不支持HTML5视频播放。</p>
+            </video>
+        </section>
+        <section id="section7" style="display: none;">
+          <h1 id="zhuce">Metaforce☞系统赋能</h1>
+          <p>欢迎来到开元社区原力空间，DeFi领域NO.1平台。开元，值得深入，选择比努力更重要。站在巨人肩膀上，更容易成功和接近成功! ———— 开元系统（宣）</p>          <p>MetaForce☞注册激活</p>
+          <h2>注册前一定找到推荐人，少走弯路</h2>
+         
+          <h2>下载钱包</h2>
+
+          <img src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/img/xiazaiqianbao.jpg" alt="">
+          <h2>注册</h2>
+          <img src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/img/zhuce.jpg" alt="注册">
+          <h2>激活经典矩阵</h2>
+          <img src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/img/jihuojing.jpg" alt="激活经典矩阵">
+          <h2>激活联合矩阵</h2>
+          <img src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/img/jihuolian.jpg" alt="激活联合矩阵">
+        </section>
+        <section id="section8" style="display: none;">
+          <h1 id="jiangjie">Metaforce☞系统赋能</h1>
+          <p>欢迎来到开元社区原力空间，DeFi领域NO.1平台。开元，值得深入，选择比努力更重要。站在巨人肩膀上，更容易成功和接近成功! ———— 开元系统（宣）</p>
+          <p>MetaForce☞项目介绍</p>
+          <p>开元系统温馨提示</p>
+          <p>MetaForce☞讲解视频</p>
+          <p>①项目讲解</p>
+          <br>
+          <p>陌生人快速成交方法
+            熟人破冰成交流程方法</p>
+          <video  controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/2024-7-2.mp4" type="video/mp4">
+            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+          <hr>
+          <p>《迪拜之行分享会》</p>
+          <video  controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/rich3.mp4" type="video/mp4">
+            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+          <hr>
+          <p>《Meta Force超级财富解析》</p>
+          <video  controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/rich1.mp4" type="video/mp4">
+            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+          <hr>
+          <p>《如何打造吸金朋友圈》</p>
+          <video  controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/rich2.mp4" type="video/mp4">
+            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+          <hr>
+          <p>13分钟讲解视频</p>
+          <video  controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/13.mp4" type="video/mp4">
+            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+         
+          <hr>
+          <p>②什么是web3.0元宇宙概念</p>
+          <video  controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/metaforce.mp4" type="video/mp4">
+            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+          <hr>
+          <p>③详细模式讲解，仔细看完你会被吸引</p>
+          <video  controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/7.mp4" type="video/mp4">
+            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+          <hr>
+          <p>④具体如何参与？参与后怎么做？得到什么？</p>
+          <video  controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/6.mp4" type="video/mp4">
+            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+          <hr>
+          <p>⑤经典矩阵s3+s6模式讲解</p>
+          <video  controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/1.mp4" type="video/mp4">
+            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+          <hr>
+          <p>⑤经典矩阵s3+s6模式讲解</p>
+          <video  controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/2.mp4" type="video/mp4">            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+          <hr>
+          <p>⑤经典矩阵s3+s6模式讲解</p>
+          <video  controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/3.mp4" type="video/mp4">            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+          <hr>
+          <p>⑤经典矩阵s3+s6模式讲解</p>
+          <video  controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/4.mp4" type="video/mp4">            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+          <hr>
+          <p>⑥ 联合宇宙讲解</p>
+          <video   controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/lian.mp4" type="video/mp4">
+            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+          <p>比特力芯片挖矿</p>
+          <video   controls preload="none">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/bitforce.mp4" type="video/mp4">
+            <p>您的浏览器不支持HTML5视频播放。</p>
+          </video>
+        </section>
+        <section id="section9" style="display: none;">
+          <h1>Metaforce☞系统赋能</h1>
+          <p>欢迎来到开元社区原力空间，DeFi领域NO.1平台。开元，值得深入，选择比努力更重要。站在巨人肩膀上，更容易成功和接近成功! ———— 开元系统（宣）</p>          <p>MetaForce☞项目介绍</p>
+          <p>开元系统温馨提示</p>
+          <p>这是链接9的内容。</p>
+        </section>
+    </div>
+</div>
+
+<!-- 视频处理 -->
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    // 获取页面上所有的视频元素
+    const videos = document.querySelectorAll('video');
+
+    // 遍历所有视频元素
+    videos.forEach((video) => {
+      // 为每个视频设置自定义封面图
+      video.poster = 'https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/img/newsbc3.jpg';
+
+      // 为每个视频添加播放事件监听器
+      video.addEventListener('play', (event) => {
+        // 检查是否已经跳过第一帧
+        if (!video.hasAttribute('data-skipped-first-frame')) {
+          // 设置视频当前时间为1秒，跳过第一帧
+          video.currentTime = 1;
+          // 标记该视频已跳过第一帧，避免重复操作
+          video.setAttribute('data-skipped-first-frame', 'true');
+        }
+      });
+    });
+  });
+</script>
+
+<script>
+
+
+    function showContent(sectionId) {
+        var sections = document.querySelectorAll('.content section');
+        sections.forEach(function(section) {
+            section.style.display = 'none';
+        });
+
+        var sectionToShow = document.getElementById(sectionId);
+        if (sectionToShow) {
+            sectionToShow.style.display = 'block';
+        }
+    }
+
+    function toggleSubMenu(submenuId) {
+        var submenu = document.getElementById(submenuId);
+        if (submenu.style.display === 'none') {
+            submenu.style.display = 'block';
+        } else {
+            submenu.style.display = 'none';
+        }
+    }
+   document.querySelector('video').addEventListener('click', function() {
+  this.load(); // 当用户点击视频时，加载视频资源
+});
+</script>
+
+</body>
+</html>

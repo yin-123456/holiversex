@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    /* background-image: url('https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/img/newsbc3.jpg'); */
+    background-attachment: fixed; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto; 
+    background-color: #3c3c3c;
+}
+
+.info-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+    background-color: black;
+}
+
+.info-bar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    transition: transform 0.3s;
+}
+
+.info-bar a:hover {
+    transform: scale(1.1);
+}
+
+.info-bar a img {
+    width: 50px;
+    height: 50px;
+}
+
+.content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+}
+.content p{
+    color: aqua;
+    text-indent: 2em; /* 首行缩进两个字 */
+    font-size: 13px;
+}
+.qr-code {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.qr-code img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+/* 响应式样式 */
+@media screen and (max-width: 768px) {
+    .info-bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-bar a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        max-width: 90%;
+    }
+
+    .qr-code {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .qr-code img {
+        width: 120px;
+        height: 120px;
+    }
+}

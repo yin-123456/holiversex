@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>传送门</title>
+  <link rel="icon" href="https://metaforce888.oss-cn-beijing.aliyuncs.com/metaforce/img/logo.jpg"> 
+ 
+  <style>
+    /* 全局样式 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      /* background: url('https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/img/newsbc3.jpg') no-repeat center center fixed;
+          background-size: cover;  */
+          background-color: #3c3c3c;
+    }
+  
+    h3{
+      color: #fff;
+      font-size: 13px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 30px;
+    }
+    
+    .block {
+  width: 10%; /* 每行显示 10 个块 */
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex; /* 使用flex布局 */
+  flex-direction: column; /* 元素垂直排列 */
+  align-items: center; /* 子元素水平居中 */
+  justify-content: center; /* 子元素垂直居中 */
+  text-align: center; /* 文字居中 */
+}
+
+.image {
+  width: 50px;  
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 5px; /* 为图片和标题之间添加一些间距 */
+}
+
+.title {
+  margin-top: 5px; /* 控制标题的顶部间距 */
+}
+
+     
+    .info-bar a {
+        display: inline-block;
+        vertical-align: middle;
+        text-decoration: none;
+        color: #fff;
+        margin-right: 10px;
+        transition: transform 0.3s ease;
+        
+    }
+
+    .info-bar {
+        display: flex;
+        align-items: center;
+        background-color: black;
+        padding: 10px;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .info-text {
+        margin-right: 20px;
+    }
+
+    .logo {
+        max-width: 50px;
+        margin-right: 10px;
+    }
+/* 视频背景样式 */
+
+.background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* 确保视频位于其他内容之下 */
+    object-fit: cover; /* 确保视频覆盖整个屏幕且不变形 */
+}
+
+/* 默认情况下隐藏移动端视频 */
+#background-video-mobile {
+    display: none;
+}
+    /* 媒体查询 - 手机纵向或宽度小于等于768px时 */
+    @media (orientation: portrait), (max-width: 768px) {
+      .container {
+        justify-content: center; /* 水平居中对齐块 */
+      }
+      
+      .block {
+        width: 25%; /* 每行显示 4 个块 */
+      }
+      .info-text a{
+        font-size:13px;
+      }
+      .logo{
+        width: 30px;
+        height: 30px;
+      }
+         /* 隐藏电脑端视频 */
+    #background-video-desktop {
+        display: none;
+    }
+    
+   
+    }
+  </style>
+</head>
+<body>
+  <!-- 电脑端背景视频 -->
+  <!-- <video autoplay muted loop id="background-video-desktop" class="background-video">
+    <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/chuansongmen.mp4" type="video/mp4">
+  </video> -->
+  
+  <!-- 手机端背景视频 -->
+  <!-- <video autoplay muted loop id="background-video-mobile" class="background-video">
+    <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/video/mobile.mp4" type="video/mp4">
+  </video> -->
+    <div class="info-bar">
+        <div info-text>
+          <a href="enter.html"><img class="logo" style="border-radius: 50%;" src="https://metaforce888.oss-cn-beijing.aliyuncs.com/metaforce/img/logo.jpg" ></a>
+        </div>
+       
+        <div class="info-text">
+            <p><a href="https://meta-force.space/">
+                MetaForce元宇宙
+              </a></p>
+        </div>
+        <div class="info-text">
+            <p><a href="news.html">
+                资料库
+              </a></p>
+        </div>
+        <div class="info-text" >
+            <p ><a href="teach.html">培训课程</a></p>
+          </div>
+          <div class="info-text" >
+            <p ><a href="toolsGuide.html">传送门</a></p>
+          </div>
+          <div class="info-text" >
+            <p ><a href="jiaru.html">加入我们</a></p>
+          </div>
+    </div>
+  <div class="container">
+    <!-- 第一行 -->
+    <div class="block">
+      <a href="https://www.baidu.com/">  
+    
+      <h3 class="title">百度</h3>
+    </div>
+    <div class="block">
+      <a href="https://www.bilibili.com/">  
+      <h3 class="title">哔哩哔哩</h3>
+    </div>
+    <div class="block">
+      <a href="https://tiqu.cc/xiaohongshu/">  
+      <h3 class="title">视频去水印视频下载1</h3>
+    </div>
+
+    <div class="block">
+      <a href="https://youtube.iiilab.com/">  
+      <h3 class="title">视频去水印视频下载2</h3>
+    </div>
+    <div class="block">
+      <a href="https://www.facebook.com/">  
+      <h3 class="title">FaceBook</h3>
+    </div>
+    <div class="block">
+      <a href="https://www.youtube.com/">  
+      <h3 class="title">Youtube</h3>
+    </div>
+    <div class="block">
+      <a href="https://www.google.com/?hl=zh_cn"> 
+      <h3 class="title">谷歌</h3>
+    </div>
+   
+    <div class="block">
+      <a href="https://web.telegram.org/k/">  
+      <h3 class="title">电报网页版</h3>
+    </div>
+    <div class="block">
+      <a href="https://meta-force.space/web3info"> 
+      <h3 class="title">原力元宇宙所有合约地址</h3>
+    </div>
+    <div class="block">
+      <a href="https://polygonscan.com/">  
+      <h3 class="title">MATIC马蹄链polygon官网</h3>
+    </div>
+    <div class="block">
+      <a href="https://etherscan.io/address/0xf3a3d1B89A70E291531ECB4a1299117f5dE44612">  
+      <h3 class="title">原力元宇宙经典矩阵合约数据查询</h3>
+    </div>
+  
+    <div class="block">
+      <a href="https://myssl.com/">  
+      <h3 class="title">平台服务器安全等级查询：</h3>
+    </div>
+    <div class="block">
+      <a href="https://polygonscan.com/token/0x6EE76404b3214C3C98A91d847CD7F15A745479BD"> 
+      <h3 class="title">平台总会员量查询</h3>
+    </div>
+ 
+    <div class="block">
+      <a href="https://meta-force.space/news-portal/cn"> 
+      <h3 class="title">原力元宇宙新闻</h3>
+    </div>
+    <div class="block">
+      <a href="https://academy.meta-force.space/library">  
+      <h3 class="title">原力元宇宙学院</h3>
+    </div>
+    <div class="block">
+      <a href="https://meta-force.space/contests">  
+      <h3 class="title">原力元宇宙百万奖金比赛</h3>
+    </div>
+   
+    <div class="block">
+      <a href="https://ladookhotnikov.com/">  
+      <h3 class="title">拉多个人网站 </h3>
+    </div>
+    <!-- 添加更多的块 -->
+    <!-- 重复上述结构直到第10个块 -->
+    
+    <!-- 第二行 -->
+    <!-- 重复上述结构直到第10个块 -->
+    
+    <!-- 添加更多行 -->
+    <!-- 重复上述结构直到达到所需行数 -->
+  </div>
+</body>
+</html>

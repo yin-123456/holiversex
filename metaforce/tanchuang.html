@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>密码验证</title>
+<style>
+.input {
+  padding: 5px;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none; /* 去除默认的输入框边框 */
+  background-color: transparent;
+}
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 10px;
+}
+</style>
+</head>
+<body>
+
+<input lang="zh" id="passwordInput" type="text" class="input" placeholder="请输入密码">
+<button class="button" onclick="checkPassword()">提交</button>
+
+<script>
+function checkPassword() {
+  var password = document.getElementById('passwordInput').value;
+
+  // 检查密码是否正确   
+  if (password === '开元') {
+    // 密码正确，进入另一个页面
+    window.location.href = 'https://example.com/another-page';
+  } else {
+    // 密码错误，给出提示
+    alert('密码错误，请重新输入！');
+  }
+}
+</script>
+
+</body>
+</html>

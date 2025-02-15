@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>课程教学</title>
+    <link rel="icon"  href="https://metaforce888.oss-cn-beijing.aliyuncs.com/metaforce/img/logo.jpg"> 
+    <style>
+        body {
+            margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    /* background: url('https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/img/newsbc3.jpg') no-repeat center center fixed;
+    background-attachment: fixed; 
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: auto; 
+    background-color: #3c3c3c;
+
+        }
+ 
+.info-bar a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.info-bar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
+
+}
+
+.info-text {
+    margin-right: 20px;
+}
+
+
+.info-text a:hover {
+    transform: scale(1.1);
+}
+.logo {
+    max-width: 50px;
+    margin-right: 10px;
+}
+    
+        .audio-player-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .audio-player {
+            width: calc(30% - 10px); /* 3个播放器每行显示 */
+          
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        audio {
+            width: 100%;
+            margin-bottom: 10px;
+           
+        }
+       
+
+    
+/* 修改播放按钮样式 */
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-start-playback-button {
+    color: #007bff; /* 修改播放按钮颜色 */
+}
+
+/* 修改进度条颜色 */
+audio::-webkit-media-slider-thumb {
+    background-color: #007bff; /* 修改进度条滑块颜色 */
+}
+audio::-webkit-media-slider-thumb {
+    background-color: transparent; /* 将进度条滑块背景颜色设置为透明 */
+}
+        .controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            margin: 0 5px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        input[type="range"] {
+            width: 100%;
+        }
+        .volume {
+            margin-top: 10px;
+        }
+        .logo{
+            width: 50px;
+            height: 50px;
+
+        }
+        @media screen and (max-width: 768px) {
+    .audio-player {
+        width: 100%; /* 在小屏幕设备上将每个播放器的宽度设置为100%，这样每行只会显示一个播放器 */
+       
+    }
+    .info-bar .logo{
+          width: 30px;
+          height: 30px;  
+          margin-left: 10px;
+        }
+        .info-bar a{
+            font-size: 9px;
+        }
+}
+    </style>
+</head>
+<body>
+
+<div class="info-bar">
+    <div info-text>
+        <a href="enter.html"><img class="logo" style="border-radius: 50%;"  src="https://metaforce888.oss-cn-beijing.aliyuncs.com/metaforce/img/logo.jpg" ></a>
+    </div>
+   
+    <div class="info-text">
+        <p><a href="https://meta-force.space/">
+            MetaForce元宇宙
+          </a></p>
+    </div>
+    <div class="info-text">
+        <p><a href="news.html">
+            资料库
+          </a></p>
+    </div>
+    <div class="info-text" >
+        <p ><a href="teach.html">培训课程</a></p>
+      </div>
+      <div class="info-text" >
+        <p ><a href="toolsGuide.html">传送门</a></p>
+      </div>
+      <div class="info-text" >
+        <p ><a href="jiaru.html">加入我们</a></p>
+      </div>
+</div>
+
+<div class="audio-player-container">
+    <div class="audio-player">
+        <h2>新资讯解读</h2>
+        <audio controls id="audio-player3">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/mp3/getvoice.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="audio-player">
+        <h2>1.《列名单》</h2>
+        <audio controls id="audio-player1">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/mp3/1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    
+    <div class="audio-player">
+        <h2>2.《铺垫》</h2>
+        <audio controls id="audio-player2">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/mp3/2.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    
+    <div class="audio-player">
+        <h2>3.《邀约》</h2>
+        <audio controls id="audio-player3">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/mp3/3.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="audio-player">
+        <h2>4.《沟通》</h2>
+        <audio controls id="audio-player3">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/mp3/4.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="audio-player">
+        <h2>5.《成交》</h2>
+        <audio controls id="audio-player3">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/mp3/5.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="audio-player">
+        <h2>6.《跟进》</h2>
+        <audio controls id="audio-player3">
+            <source src="https://web-uu-pro.oss-cn-hangzhou.aliyuncs.com/mp3/6.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+    const audioPlayers = document.querySelectorAll('audio');
+
+    audioPlayers.forEach(function(player) {
+        const playButton = player.nextElementSibling.querySelector('.play-button');
+        const progressBar = player.nextElementSibling.querySelector('.progress-bar');
+
+        playButton.addEventListener('click', function() {
+            if (player.paused) {
+                player.play();
+                playButton.textContent = 'Pause';
+            } else {
+                player.pause();
+                playButton.textContent = 'Play';
+            }
+        });
+
+        player.addEventListener('timeupdate', function() {
+            const percent = (player.currentTime / player.duration) * 100;
+            progressBar.style.width = percent + '%';
+        });
+    });
+});
+
+</script>
+
+</body>
+</html>
