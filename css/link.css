@@ -28,8 +28,8 @@
 /* 链接样式 */
 .link-container a {
     display: block;
-    background-color: #1E90FF;
-    color: white;
+    background-color:#fff;
+    color: black;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -37,5 +37,7 @@
 }
 
 .link-container a:hover {
-    background-color: #333; /* 鼠标悬停时背景颜色 */
+    background-color:black; /* 鼠标悬停时背景颜色 */
+    color: #fff;
+    
 }
